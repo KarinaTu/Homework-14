@@ -50,7 +50,7 @@ public class Post {
 
         System.out.println(apiResponsePOSTorder);
 
-        in.close();
+        inPost.close();
         connection1.disconnect();
     }
 }
